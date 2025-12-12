@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://betaac.redotpay.com/wapi",
+  "apiVersion": "v1",
+  "timeout": 30.0,
+  "retryCount": 0
+}

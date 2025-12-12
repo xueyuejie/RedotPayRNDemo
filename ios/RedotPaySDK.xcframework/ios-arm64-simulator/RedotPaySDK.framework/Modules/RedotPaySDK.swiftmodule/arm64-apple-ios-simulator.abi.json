@@ -1,0 +1,5611 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "RedotPaySDK",
+    "printedName": "RedotPaySDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentFlowModel",
+        "printedName": "PaymentFlowModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentFlowModel",
+                "printedName": "RedotPaySDK.PaymentFlowModel",
+                "usr": "s:11RedotPaySDK16PaymentFlowModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentFlowModel",
+                "printedName": "RedotPaySDK.PaymentFlowModel",
+                "usr": "s:11RedotPaySDK16PaymentFlowModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK16PaymentFlowModelV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11RedotPaySDK16PaymentFlowModelV2eeoiySbAC_ACtFZ",
+            "moduleName": "RedotPaySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK16PaymentFlowModelV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11RedotPaySDK16PaymentFlowModelV4hash4intoys6HasherVz_tF",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RedotPaySDK16PaymentFlowModelV9hashValueSivp",
+            "mangledName": "$s11RedotPaySDK16PaymentFlowModelV9hashValueSivp",
+            "moduleName": "RedotPaySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK16PaymentFlowModelV9hashValueSivg",
+                "mangledName": "$s11RedotPaySDK16PaymentFlowModelV9hashValueSivg",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11RedotPaySDK16PaymentFlowModelV",
+        "mangledName": "$s11RedotPaySDK16PaymentFlowModelV",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Web2PaymentModel",
+        "printedName": "Web2PaymentModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Web2PaymentModel",
+                "printedName": "RedotPaySDK.Web2PaymentModel",
+                "usr": "s:11RedotPaySDK16Web2PaymentModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Web2PaymentModel",
+                "printedName": "RedotPaySDK.Web2PaymentModel",
+                "usr": "s:11RedotPaySDK16Web2PaymentModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK16Web2PaymentModelV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11RedotPaySDK16Web2PaymentModelV2eeoiySbAC_ACtFZ",
+            "moduleName": "RedotPaySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK16Web2PaymentModelV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11RedotPaySDK16Web2PaymentModelV4hash4intoys6HasherVz_tF",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RedotPaySDK16Web2PaymentModelV9hashValueSivp",
+            "mangledName": "$s11RedotPaySDK16Web2PaymentModelV9hashValueSivp",
+            "moduleName": "RedotPaySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK16Web2PaymentModelV9hashValueSivg",
+                "mangledName": "$s11RedotPaySDK16Web2PaymentModelV9hashValueSivg",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11RedotPaySDK16Web2PaymentModelV",
+        "mangledName": "$s11RedotPaySDK16Web2PaymentModelV",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RedotpayBlockchain",
+        "printedName": "RedotpayBlockchain",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RedotPaySDK18RedotpayBlockchainV2idSSvp",
+            "mangledName": "$s11RedotPaySDK18RedotpayBlockchainV2idSSvp",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK18RedotpayBlockchainV2idSSvg",
+                "mangledName": "$s11RedotPaySDK18RedotpayBlockchainV2idSSvg",
+                "moduleName": "RedotPaySDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RedotpayBlockchain",
+                "printedName": "RedotPaySDK.RedotpayBlockchain",
+                "usr": "s:11RedotPaySDK18RedotpayBlockchainV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RedotpayBlockchain",
+                "printedName": "RedotPaySDK.RedotpayBlockchain",
+                "usr": "s:11RedotPaySDK18RedotpayBlockchainV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK18RedotpayBlockchainV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11RedotPaySDK18RedotpayBlockchainV2eeoiySbAC_ACtFZ",
+            "moduleName": "RedotPaySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RedotpayBlockchain",
+                "printedName": "RedotPaySDK.RedotpayBlockchain",
+                "usr": "s:11RedotPaySDK18RedotpayBlockchainV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RedotPaySDK18RedotpayBlockchainV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11RedotPaySDK18RedotpayBlockchainV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RedotPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK18RedotpayBlockchainV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11RedotPaySDK18RedotpayBlockchainV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RedotPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11RedotPaySDK18RedotpayBlockchainV",
+        "mangledName": "$s11RedotPaySDK18RedotpayBlockchainV",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IsTestConfig",
+        "printedName": "IsTestConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "share",
+            "printedName": "share",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IsTestConfig",
+                "printedName": "RedotPaySDK.IsTestConfig",
+                "usr": "s:11RedotPaySDK12IsTestConfigC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RedotPaySDK12IsTestConfigC5shareACvpZ",
+            "mangledName": "$s11RedotPaySDK12IsTestConfigC5shareACvpZ",
+            "moduleName": "RedotPaySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IsTestConfig",
+                    "printedName": "RedotPaySDK.IsTestConfig",
+                    "usr": "s:11RedotPaySDK12IsTestConfigC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK12IsTestConfigC5shareACvgZ",
+                "mangledName": "$s11RedotPaySDK12IsTestConfigC5shareACvgZ",
+                "moduleName": "RedotPaySDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isTest",
+            "printedName": "isTest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RedotPaySDK12IsTestConfigC02isE0Sbvp",
+            "mangledName": "$s11RedotPaySDK12IsTestConfigC02isE0Sbvp",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK12IsTestConfigC02isE0Sbvg",
+                "mangledName": "$s11RedotPaySDK12IsTestConfigC02isE0Sbvg",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK12IsTestConfigC02isE0Sbvs",
+                "mangledName": "$s11RedotPaySDK12IsTestConfigC02isE0Sbvs",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK12IsTestConfigC02isE0SbvM",
+                "mangledName": "$s11RedotPaySDK12IsTestConfigC02isE0SbvM",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11RedotPaySDK12IsTestConfigC",
+        "mangledName": "$s11RedotPaySDK12IsTestConfigC",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppRoute",
+        "printedName": "AppRoute",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "selectWallet",
+            "printedName": "selectWallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RedotPaySDK.AppRoute.Type) -> (Swift.String) -> RedotPaySDK.AppRoute",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> RedotPaySDK.AppRoute",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppRoute",
+                        "printedName": "RedotPaySDK.AppRoute",
+                        "usr": "s:11RedotPaySDK8AppRouteO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(preSn: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RedotPaySDK.AppRoute.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppRoute",
+                        "printedName": "RedotPaySDK.AppRoute",
+                        "usr": "s:11RedotPaySDK8AppRouteO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11RedotPaySDK8AppRouteO12selectWalletyACSS_tcACmF",
+            "mangledName": "$s11RedotPaySDK8AppRouteO12selectWalletyACSS_tcACmF",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redotPayPayment",
+            "printedName": "redotPayPayment",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RedotPaySDK.AppRoute.Type) -> (RedotPaySDK.Web2PaymentModel) -> RedotPaySDK.AppRoute",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(RedotPaySDK.Web2PaymentModel) -> RedotPaySDK.AppRoute",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppRoute",
+                        "printedName": "RedotPaySDK.AppRoute",
+                        "usr": "s:11RedotPaySDK8AppRouteO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(paymentModel: RedotPaySDK.Web2PaymentModel)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Web2PaymentModel",
+                            "printedName": "RedotPaySDK.Web2PaymentModel",
+                            "usr": "s:11RedotPaySDK16Web2PaymentModelV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RedotPaySDK.AppRoute.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppRoute",
+                        "printedName": "RedotPaySDK.AppRoute",
+                        "usr": "s:11RedotPaySDK8AppRouteO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11RedotPaySDK8AppRouteO05redotB7PaymentyAcA04Web2G5ModelV_tcACmF",
+            "mangledName": "$s11RedotPaySDK8AppRouteO05redotB7PaymentyAcA04Web2G5ModelV_tcACmF",
+            "moduleName": "RedotPaySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "paymentFlow",
+            "printedName": "paymentFlow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RedotPaySDK.AppRoute.Type) -> (RedotPaySDK.PaymentFlowModel) -> RedotPaySDK.AppRoute",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(RedotPaySDK.PaymentFlowModel) -> RedotPaySDK.AppRoute",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppRoute",
+                        "printedName": "RedotPaySDK.AppRoute",
+                        "usr": "s:11RedotPaySDK8AppRouteO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(flowModel: RedotPaySDK.PaymentFlowModel)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PaymentFlowModel",
+                            "printedName": "RedotPaySDK.PaymentFlowModel",
+                            "usr": "s:11RedotPaySDK16PaymentFlowModelV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RedotPaySDK.AppRoute.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppRoute",
+                        "printedName": "RedotPaySDK.AppRoute",
+                        "usr": "s:11RedotPaySDK8AppRouteO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11RedotPaySDK8AppRouteO11paymentFlowyAcA07PaymentG5ModelV_tcACmF",
+            "mangledName": "$s11RedotPaySDK8AppRouteO11paymentFlowyAcA07PaymentG5ModelV_tcACmF",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cryptoPaymentResultSuccess",
+            "printedName": "cryptoPaymentResultSuccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RedotPaySDK.AppRoute.Type) -> (Swift.String) -> RedotPaySDK.AppRoute",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> RedotPaySDK.AppRoute",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppRoute",
+                        "printedName": "RedotPaySDK.AppRoute",
+                        "usr": "s:11RedotPaySDK8AppRouteO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(orderAmount: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RedotPaySDK.AppRoute.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppRoute",
+                        "printedName": "RedotPaySDK.AppRoute",
+                        "usr": "s:11RedotPaySDK8AppRouteO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11RedotPaySDK8AppRouteO26cryptoPaymentResultSuccessyACSS_tcACmF",
+            "mangledName": "$s11RedotPaySDK8AppRouteO26cryptoPaymentResultSuccessyACSS_tcACmF",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cryptoPaymentResultFailure",
+            "printedName": "cryptoPaymentResultFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RedotPaySDK.AppRoute.Type) -> RedotPaySDK.AppRoute",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppRoute",
+                    "printedName": "RedotPaySDK.AppRoute",
+                    "usr": "s:11RedotPaySDK8AppRouteO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RedotPaySDK.AppRoute.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppRoute",
+                        "printedName": "RedotPaySDK.AppRoute",
+                        "usr": "s:11RedotPaySDK8AppRouteO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11RedotPaySDK8AppRouteO26cryptoPaymentResultFailureyA2CmF",
+            "mangledName": "$s11RedotPaySDK8AppRouteO26cryptoPaymentResultFailureyA2CmF",
+            "moduleName": "RedotPaySDK"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK8AppRouteO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11RedotPaySDK8AppRouteO4hash4intoys6HasherVz_tF",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppRoute",
+                "printedName": "RedotPaySDK.AppRoute",
+                "usr": "s:11RedotPaySDK8AppRouteO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppRoute",
+                "printedName": "RedotPaySDK.AppRoute",
+                "usr": "s:11RedotPaySDK8AppRouteO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK8AppRouteO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11RedotPaySDK8AppRouteO2eeoiySbAC_ACtFZ",
+            "moduleName": "RedotPaySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RedotPaySDK8AppRouteO9hashValueSivp",
+            "mangledName": "$s11RedotPaySDK8AppRouteO9hashValueSivp",
+            "moduleName": "RedotPaySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK8AppRouteO9hashValueSivg",
+                "mangledName": "$s11RedotPaySDK8AppRouteO9hashValueSivg",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11RedotPaySDK8AppRouteO",
+        "mangledName": "$s11RedotPaySDK8AppRouteO",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RedotPayRouter",
+        "printedName": "RedotPayRouter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onModuleDismiss",
+            "printedName": "onModuleDismiss",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RedotPaySDK0aB6RouterC15onModuleDismissyycSgvp",
+            "mangledName": "$s11RedotPaySDK0aB6RouterC15onModuleDismissyycSgvp",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK0aB6RouterC15onModuleDismissyycSgvg",
+                "mangledName": "$s11RedotPaySDK0aB6RouterC15onModuleDismissyycSgvg",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK0aB6RouterC15onModuleDismissyycSgvs",
+                "mangledName": "$s11RedotPaySDK0aB6RouterC15onModuleDismissyycSgvs",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK0aB6RouterC15onModuleDismissyycSgvM",
+                "mangledName": "$s11RedotPaySDK0aB6RouterC15onModuleDismissyycSgvM",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(preSn:publicKey:jwtToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RedotPayRouter",
+                "printedName": "RedotPaySDK.RedotPayRouter",
+                "usr": "s:11RedotPaySDK0aB6RouterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RedotPaySDK0aB6RouterC5preSn9publicKey8jwtTokenACSS_S2Stcfc",
+            "mangledName": "$s11RedotPaySDK0aB6RouterC5preSn9publicKey8jwtTokenACSS_S2Stcfc",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11RedotPaySDK0aB6RouterC",
+        "mangledName": "$s11RedotPaySDK0aB6RouterC",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RouterContainerView",
+        "printedName": "RouterContainerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "router",
+            "printedName": "router",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RedotPayRouter",
+                "printedName": "RedotPaySDK.RedotPayRouter",
+                "usr": "s:11RedotPaySDK0aB6RouterC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RedotPaySDK19RouterContainerViewV6routerAA0abD0Cvp",
+            "mangledName": "$s11RedotPaySDK19RouterContainerViewV6routerAA0abD0Cvp",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RedotPayRouter",
+                    "printedName": "RedotPaySDK.RedotPayRouter",
+                    "usr": "s:11RedotPaySDK0aB6RouterC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK19RouterContainerViewV6routerAA0abD0Cvg",
+                "mangledName": "$s11RedotPaySDK19RouterContainerViewV6routerAA0abD0Cvg",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RedotPayRouter",
+                    "printedName": "RedotPaySDK.RedotPayRouter",
+                    "usr": "s:11RedotPaySDK0aB6RouterC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK19RouterContainerViewV6routerAA0abD0Cvs",
+                "mangledName": "$s11RedotPaySDK19RouterContainerViewV6routerAA0abD0Cvs",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK19RouterContainerViewV6routerAA0abD0CvM",
+                "mangledName": "$s11RedotPaySDK19RouterContainerViewV6routerAA0abD0CvM",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$router",
+            "printedName": "$router",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Wrapper",
+                "printedName": "SwiftUI.ObservedObject<RedotPaySDK.RedotPayRouter>.Wrapper",
+                "usr": "s:7SwiftUI14ObservedObjectV7WrapperV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RedotPaySDK19RouterContainerViewV7$router7SwiftUI14ObservedObjectV7WrapperVyAA0abD0C_Gvp",
+            "mangledName": "$s11RedotPaySDK19RouterContainerViewV7$router7SwiftUI14ObservedObjectV7WrapperVyAA0abD0C_Gvp",
+            "moduleName": "RedotPaySDK",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Wrapper",
+                    "printedName": "SwiftUI.ObservedObject<RedotPaySDK.RedotPayRouter>.Wrapper",
+                    "usr": "s:7SwiftUI14ObservedObjectV7WrapperV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK19RouterContainerViewV7$router7SwiftUI14ObservedObjectV7WrapperVyAA0abD0C_Gvg",
+                "mangledName": "$s11RedotPaySDK19RouterContainerViewV7$router7SwiftUI14ObservedObjectV7WrapperVyAA0abD0C_Gvg",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(router:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RouterContainerView",
+                "printedName": "RedotPaySDK.RouterContainerView",
+                "usr": "s:11RedotPaySDK19RouterContainerViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RedotPayRouter",
+                "printedName": "RedotPaySDK.RedotPayRouter",
+                "usr": "s:11RedotPaySDK0aB6RouterC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RedotPaySDK19RouterContainerViewV6routerAcA0abD0C_tcfc",
+            "mangledName": "$s11RedotPaySDK19RouterContainerViewV6routerAcA0abD0C_tcfc",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RedotPaySDK19RouterContainerViewV4bodyQrvp",
+            "mangledName": "$s11RedotPaySDK19RouterContainerViewV4bodyQrvp",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK19RouterContainerViewV4bodyQrvg",
+                "mangledName": "$s11RedotPaySDK19RouterContainerViewV4bodyQrvg",
+                "moduleName": "RedotPaySDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11RedotPaySDK19RouterContainerViewV",
+        "mangledName": "$s11RedotPaySDK19RouterContainerViewV",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RouteViewBuilder",
+        "printedName": "RouteViewBuilder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "buildView",
+            "printedName": "buildView(for:router:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppRoute",
+                "printedName": "RedotPaySDK.AppRoute",
+                "usr": "s:11RedotPaySDK8AppRouteO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RedotPayRouter",
+                "printedName": "RedotPaySDK.RedotPayRouter",
+                "usr": "s:11RedotPaySDK0aB6RouterC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK16RouteViewBuilderV05buildE03for6routerQrAA03AppD0O_AA0aB6RouterCtFZ",
+            "mangledName": "$s11RedotPaySDK16RouteViewBuilderV05buildE03for6routerQrAA03AppD0O_AA0aB6RouterCtFZ",
+            "moduleName": "RedotPaySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11RedotPaySDK16RouteViewBuilderV",
+        "mangledName": "$s11RedotPaySDK16RouteViewBuilderV",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FontLoader",
+        "printedName": "FontLoader",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "registerFonts",
+            "printedName": "registerFonts()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK10FontLoaderO13registerFontsyyFZ",
+            "mangledName": "$s11RedotPaySDK10FontLoaderO13registerFontsyyFZ",
+            "moduleName": "RedotPaySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11RedotPaySDK10FontLoaderO",
+        "mangledName": "$s11RedotPaySDK10FontLoaderO",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PopupYPosition",
+        "printedName": "PopupYPosition",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "top",
+            "printedName": "top",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RedotPaySDK.PopupYPosition.Type) -> RedotPaySDK.PopupYPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PopupYPosition",
+                    "printedName": "RedotPaySDK.PopupYPosition",
+                    "usr": "s:11RedotPaySDK14PopupYPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RedotPaySDK.PopupYPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopupYPosition",
+                        "printedName": "RedotPaySDK.PopupYPosition",
+                        "usr": "s:11RedotPaySDK14PopupYPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11RedotPaySDK14PopupYPositionO3topyA2CmF",
+            "mangledName": "$s11RedotPaySDK14PopupYPositionO3topyA2CmF",
+            "moduleName": "RedotPaySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "center",
+            "printedName": "center",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RedotPaySDK.PopupYPosition.Type) -> RedotPaySDK.PopupYPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PopupYPosition",
+                    "printedName": "RedotPaySDK.PopupYPosition",
+                    "usr": "s:11RedotPaySDK14PopupYPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RedotPaySDK.PopupYPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopupYPosition",
+                        "printedName": "RedotPaySDK.PopupYPosition",
+                        "usr": "s:11RedotPaySDK14PopupYPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11RedotPaySDK14PopupYPositionO6centeryA2CmF",
+            "mangledName": "$s11RedotPaySDK14PopupYPositionO6centeryA2CmF",
+            "moduleName": "RedotPaySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "bottom",
+            "printedName": "bottom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RedotPaySDK.PopupYPosition.Type) -> RedotPaySDK.PopupYPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PopupYPosition",
+                    "printedName": "RedotPaySDK.PopupYPosition",
+                    "usr": "s:11RedotPaySDK14PopupYPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RedotPaySDK.PopupYPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopupYPosition",
+                        "printedName": "RedotPaySDK.PopupYPosition",
+                        "usr": "s:11RedotPaySDK14PopupYPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11RedotPaySDK14PopupYPositionO6bottomyA2CmF",
+            "mangledName": "$s11RedotPaySDK14PopupYPositionO6bottomyA2CmF",
+            "moduleName": "RedotPaySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RedotPaySDK.PopupYPosition.Type) -> (CoreGraphics.CGFloat) -> RedotPaySDK.PopupYPosition",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat) -> RedotPaySDK.PopupYPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopupYPosition",
+                        "printedName": "RedotPaySDK.PopupYPosition",
+                        "usr": "s:11RedotPaySDK14PopupYPositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RedotPaySDK.PopupYPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopupYPosition",
+                        "printedName": "RedotPaySDK.PopupYPosition",
+                        "usr": "s:11RedotPaySDK14PopupYPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11RedotPaySDK14PopupYPositionO6customyAC14CoreFoundation7CGFloatVcACmF",
+            "mangledName": "$s11RedotPaySDK14PopupYPositionO6customyAC12CoreGraphics7CGFloatVcACmF",
+            "moduleName": "RedotPaySDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11RedotPaySDK14PopupYPositionO",
+        "mangledName": "$s11RedotPaySDK14PopupYPositionO",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CryptoPaymentToken",
+        "printedName": "CryptoPaymentToken",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CryptoPaymentToken",
+                "printedName": "RedotPaySDK.CryptoPaymentToken",
+                "usr": "s:11RedotPaySDK18CryptoPaymentTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CryptoPaymentToken",
+                "printedName": "RedotPaySDK.CryptoPaymentToken",
+                "usr": "s:11RedotPaySDK18CryptoPaymentTokenV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK18CryptoPaymentTokenV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11RedotPaySDK18CryptoPaymentTokenV2eeoiySbAC_ACtFZ",
+            "moduleName": "RedotPaySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK18CryptoPaymentTokenV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11RedotPaySDK18CryptoPaymentTokenV4hash4intoys6HasherVz_tF",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CryptoPaymentToken",
+                "printedName": "RedotPaySDK.CryptoPaymentToken",
+                "usr": "s:11RedotPaySDK18CryptoPaymentTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RedotPaySDK18CryptoPaymentTokenV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11RedotPaySDK18CryptoPaymentTokenV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RedotPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK18CryptoPaymentTokenV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11RedotPaySDK18CryptoPaymentTokenV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RedotPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RedotPaySDK18CryptoPaymentTokenV9hashValueSivp",
+            "mangledName": "$s11RedotPaySDK18CryptoPaymentTokenV9hashValueSivp",
+            "moduleName": "RedotPaySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RedotPaySDK18CryptoPaymentTokenV9hashValueSivg",
+                "mangledName": "$s11RedotPaySDK18CryptoPaymentTokenV9hashValueSivg",
+                "moduleName": "RedotPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11RedotPaySDK18CryptoPaymentTokenV",
+        "mangledName": "$s11RedotPaySDK18CryptoPaymentTokenV",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageCacheManager",
+        "printedName": "ImageCacheManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image(forUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK17ImageCacheManagerV5image6forUrl10Foundation4DataVSgSS_tYaF",
+            "mangledName": "$s11RedotPaySDK17ImageCacheManagerV5image6forUrl10Foundation4DataVSgSS_tYaF",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11RedotPaySDK17ImageCacheManagerV",
+        "mangledName": "$s11RedotPaySDK17ImageCacheManagerV",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RedotPayCollection",
+        "printedName": "RedotPayCollection",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "startPay",
+            "printedName": "startPay(sdkConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SDKConfiguartion",
+                "printedName": "RedotPaySDK.SDKConfiguartion",
+                "usr": "s:11RedotPaySDK16SDKConfiguartionV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK0aB10CollectionC05startB09sdkConfigSbAA16SDKConfiguartionV_tFZ",
+            "mangledName": "$s11RedotPaySDK0aB10CollectionC05startB09sdkConfigSbAA16SDKConfiguartionV_tFZ",
+            "moduleName": "RedotPaySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11RedotPaySDK0aB10CollectionC",
+        "mangledName": "$s11RedotPaySDK0aB10CollectionC",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKConfiguartion",
+        "printedName": "SDKConfiguartion",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(preOrderId:jwtToken:publicKey:language:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKConfiguartion",
+                "printedName": "RedotPaySDK.SDKConfiguartion",
+                "usr": "s:11RedotPaySDK16SDKConfiguartionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RedotPaySDK16SDKConfiguartionV10preOrderId8jwtToken9publicKey8languageACSS_S3Stcfc",
+            "mangledName": "$s11RedotPaySDK16SDKConfiguartionV10preOrderId8jwtToken9publicKey8languageACSS_S3Stcfc",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11RedotPaySDK16SDKConfiguartionV",
+        "mangledName": "$s11RedotPaySDK16SDKConfiguartionV",
+        "moduleName": "RedotPaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Array",
+        "printedName": "Array",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(reserveCapacity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:Sa11RedotPaySDKE15reserveCapacitySayxGSi_tcfc",
+            "mangledName": "$sSa11RedotPaySDKE15reserveCapacitySayxGSi_tcfc",
+            "moduleName": "RedotPaySDK",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "declAttributes": [
+              "Inlinable"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "slice",
+            "printedName": "slice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ArraySlice",
+                "printedName": "Swift.ArraySlice<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:s10ArraySliceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa11RedotPaySDKE5slices10ArraySliceVyxGvp",
+            "mangledName": "$sSa11RedotPaySDKE5slices10ArraySliceVyxGvp",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "Inlinable"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa11RedotPaySDKE5slices10ArraySliceVyxGvg",
+                "mangledName": "$sSa11RedotPaySDKE5slices10ArraySliceVyxGvg",
+                "moduleName": "RedotPaySDK",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Element>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(safe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:Sa11RedotPaySDKE4safexSgSi_tcip",
+            "mangledName": "$sSa11RedotPaySDKE4safexSgSi_tcip",
+            "moduleName": "RedotPaySDK",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "declAttributes": [
+              "Inlinable"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa11RedotPaySDKE4safexSgSi_tcig",
+                "mangledName": "$sSa11RedotPaySDKE4safexSgSi_tcig",
+                "moduleName": "RedotPaySDK",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Element>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:Sa11RedotPaySDKs5UInt8VRszlE3hexSayACGSS_tcfc",
+            "mangledName": "$sSa11RedotPaySDKs5UInt8VRszlE3hexSayACGSS_tcfc",
+            "moduleName": "RedotPaySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.UInt8>",
+            "sugared_genericSig": "<Element where Element == Swift.UInt8>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "toHexString",
+            "printedName": "toHexString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sa11RedotPaySDKs5UInt8VRszlE11toHexStringSSyF",
+            "mangledName": "$sSa11RedotPaySDKs5UInt8VRszlE11toHexStringSSyF",
+            "moduleName": "RedotPaySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.UInt8>",
+            "sugared_genericSig": "<Element where Element == Swift.UInt8>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sa",
+        "mangledName": "$sSa",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Element>",
+        "declAttributes": [
+          "EagerMove",
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_DestructorSafeContainer",
+            "printedName": "_DestructorSafeContainer",
+            "usr": "s:s24_DestructorSafeContainerP",
+            "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ArrayProtocol",
+            "printedName": "_ArrayProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Buffer",
+                "printedName": "_Buffer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ArrayBuffer",
+                    "printedName": "Swift._ArrayBuffer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s12_ArrayBufferV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s14_ArrayProtocolP",
+            "mangledName": "$ss14_ArrayProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableWithConfiguration",
+            "printedName": "EncodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "EncodingConfiguration",
+                "printedName": "EncodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.EncodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26EncodableWithConfigurationP",
+            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DecodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Data",
+        "printedName": "Data",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10Foundation4DataV11RedotPaySDKE3hexACSS_tcfc",
+            "mangledName": "$s10Foundation4DataV11RedotPaySDKE3hexACSS_tcfc",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "byteArray",
+            "printedName": "byteArray",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation4DataV11RedotPaySDKE9byteArraySays5UInt8VGvp",
+            "mangledName": "$s10Foundation4DataV11RedotPaySDKE9byteArraySays5UInt8VGvp",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation4DataV11RedotPaySDKE9byteArraySays5UInt8VGvg",
+                "mangledName": "$s10Foundation4DataV11RedotPaySDKE9byteArraySays5UInt8VGvg",
+                "moduleName": "RedotPaySDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "toHexString",
+            "printedName": "toHexString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DataV11RedotPaySDKE11toHexStringSSyF",
+            "mangledName": "$s10Foundation4DataV11RedotPaySDKE11toHexStringSSyF",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation4DataV",
+        "mangledName": "$s10Foundation4DataV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "AddressableForDependencies",
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<Foundation.Data>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isHttpUrl",
+            "printedName": "isHttpUrl()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11RedotPaySDKE9isHttpUrlSbyF",
+            "mangledName": "$sSS11RedotPaySDKE9isHttpUrlSbyF",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "EagerMove",
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/PaymentRedotpay\/ViewModels\/RedotPaymentViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 231,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/PaymentRedotpay\/ViewModels\/RedotPaymentViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/PaymentRedotpay\/ViewModels\/RedotPaymentViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 379,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/PaymentRedotpay\/ViewModels\/RedotPaymentViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/PaymentRedotpay\/ViewModels\/RedotPaymentViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 453,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/PaymentRedotpay\/ViewModels\/RedotPaymentViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 9,
+      "value": "\"loading\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 9,
+      "value": "\"loading\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 437,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 473,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 520,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 566,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
+      "kind": "Array",
+      "offset": 619,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/Views\/WalletListRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/Config\/IsTestConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 206,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/Router\/RedotPayRouter.swift",
+      "kind": "Array",
+      "offset": 304,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/Router\/RedotPayRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 346,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/Router\/RedotPayRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 434,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/Service\/RedotpayNetwork\/RedotPayNetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 71,
+      "length": 31,
+      "value": "\"https:\/\/rpc.walletconnect.org\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/Service\/RedotpayNetwork\/RedotPayNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 8127,
+      "length": 5,
+      "value": "\"APP\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Font\/FontLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 172,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/PopView\/PopupView.swift",
+      "kind": "FloatLiteral",
+      "offset": 730,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/PopView\/PopupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 772,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/PopView\/PopupView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/PopView\/PopupView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 846,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/PopView\/PopupView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4170,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/PopView\/PopupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4212,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/PopView\/PopupView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4250,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/PopView\/PopupView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4286,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 195,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 21,
+      "value": "\"Waiting For Payment\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 608,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 645,
+      "length": 4,
+      "value": "0x17"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 650,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 662,
+      "length": 4,
+      "value": "0x1A"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 667,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 678,
+      "length": 4,
+      "value": "0x1B"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 683,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 730,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1032,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1044,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1108,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1171,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1214,
+      "length": 4,
+      "value": "11.5"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1428,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1440,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1507,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1513,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1608,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "StringLiteral",
+      "offset": 1827,
+      "length": 15,
+      "value": "\"Inter-Regular\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1850,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1943,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2049,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2099,
+      "length": 3,
+      "value": "165"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2112,
+      "length": 2,
+      "value": "81"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2162,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/View+Toast.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 11,
+      "value": "\"checkmark\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/View+Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 489,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/View+Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 1147,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/RotatingImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 193,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Core\/Extensions\/String+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 6,
+      "value": "\"****\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Core\/Extensions\/String+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Core\/Models\/CryptoPaymentModels.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 4,
+      "value": "\"--\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Core\/Models\/CryptoPaymentModels.swift",
+      "kind": "BooleanLiteral",
+      "offset": 332,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Core\/Models\/CryptoPaymentModels.swift",
+      "kind": "BooleanLiteral",
+      "offset": 366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Core\/Models\/RedotPayWallet.swift",
+      "kind": "BooleanLiteral",
+      "offset": 298,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Core\/Models\/RedotPayWallet.swift",
+      "kind": "BooleanLiteral",
+      "offset": 331,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Core\/Models\/RedotPayWallet.swift",
+      "kind": "BooleanLiteral",
+      "offset": 485,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Crypto\/AesUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 189,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Crypto\/AesUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 259,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Image\/RedotpayImage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 225,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Language\/LanguageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
+      "length": 9,
+      "value": "\"zh-Hans\""
+    }
+  ]
+}

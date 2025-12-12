@@ -1,0 +1,144 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name RedotPaySDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import Combine
+import CryptoKit
+import Foundation
+import Security
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct PaymentFlowModel : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: RedotPaySDK.PaymentFlowModel, rhs: RedotPaySDK.PaymentFlowModel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Web2PaymentModel : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: RedotPaySDK.Web2PaymentModel, rhs: RedotPaySDK.Web2PaymentModel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct RedotpayBlockchain : Swift.Codable, Swift.Equatable, Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public static func == (lhs: RedotPaySDK.RedotpayBlockchain, rhs: RedotPaySDK.RedotpayBlockchain) -> Swift.Bool
+  public typealias ID = Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class IsTestConfig {
+  public static let share: RedotPaySDK.IsTestConfig
+  public var isTest: Swift.Bool
+  @objc deinit
+}
+public enum AppRoute : Swift.Hashable {
+  case selectWallet(preSn: Swift.String)
+  case redotPayPayment(paymentModel: RedotPaySDK.Web2PaymentModel)
+  case paymentFlow(flowModel: RedotPaySDK.PaymentFlowModel)
+  case cryptoPaymentResultSuccess(orderAmount: Swift.String)
+  case cryptoPaymentResultFailure
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: RedotPaySDK.AppRoute, rhs: RedotPaySDK.AppRoute) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class RedotPayRouter : Combine.ObservableObject {
+  public var onModuleDismiss: (() -> Swift.Void)?
+  public init(preSn: Swift.String, publicKey: Swift.String, jwtToken: Swift.String)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct RouterContainerView : SwiftUICore.View {
+  @SwiftUICore.ObservedObject @_projectedValueProperty($router) @_Concurrency.MainActor @preconcurrency public var router: RedotPaySDK.RedotPayRouter {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  @_Concurrency.MainActor @preconcurrency public var $router: SwiftUICore.ObservedObject<RedotPaySDK.RedotPayRouter>.Wrapper {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public init(router: RedotPaySDK.RedotPayRouter)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s11RedotPaySDK19RouterContainerViewV4bodyQrvp", 0) __
+}
+public struct RouteViewBuilder {
+  @_Concurrency.MainActor public static func buildView(for route: RedotPaySDK.AppRoute, router: RedotPaySDK.RedotPayRouter) -> some SwiftUICore.View
+  
+}
+public enum FontLoader {
+  public static func registerFonts()
+}
+public enum PopupYPosition {
+  case top
+  case center
+  case bottom
+  case custom(CoreFoundation.CGFloat)
+}
+extension Swift.Array {
+  @inlinable internal init(reserveCapacity: Swift.Int) {
+    self = Array<Element>()
+    self.reserveCapacity(reserveCapacity)
+  }
+  @inlinable internal var slice: Swift.ArraySlice<Element> {
+    get {
+    self[self.startIndex ..< self.endIndex]
+  }
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @inlinable internal subscript(safe index: Swift.Array<Element>.Index) -> Element? {
+    get {
+    return indices.contains(index) ? self[index] : nil
+  }
+  }
+  #endif
+}
+extension Swift.Array where Element == Swift.UInt8 {
+  public init(hex: Swift.String)
+  public func toHexString() -> Swift.String
+}
+extension Foundation.Data {
+  public init(hex: Swift.String)
+  public var byteArray: Swift.Array<Swift.UInt8> {
+    get
+  }
+  public func toHexString() -> Swift.String
+}
+extension Swift.String {
+  public func isHttpUrl() -> Swift.Bool
+}
+public struct CryptoPaymentToken : Swift.Codable, Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: RedotPaySDK.CryptoPaymentToken, rhs: RedotPaySDK.CryptoPaymentToken) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ImageCacheManager {
+  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func image(forUrl key: Swift.String) async -> Foundation.Data?
+  #endif
+}
+@_hasMissingDesignatedInitializers public class RedotPayCollection {
+  public static func startPay(sdkConfig: RedotPaySDK.SDKConfiguartion) -> Swift.Bool
+  @objc deinit
+}
+public struct SDKConfiguartion {
+  public init(preOrderId: Swift.String, jwtToken: Swift.String, publicKey: Swift.String, language: Swift.String)
+}
+extension RedotPaySDK.RouterContainerView : Swift.Sendable {}
