@@ -47,7 +47,7 @@ function startPay(preOrderId: string, jwtToken: string, publicKey: string) {
       preOrderId: preOrderId,
       jwtToken: jwtToken,
       publicKey: publicKey,
-      language: 'zh-Hans'
+      language: 'en'
     })
       .then((result: any) => {
         console.log('Payment started successfully:', result);
