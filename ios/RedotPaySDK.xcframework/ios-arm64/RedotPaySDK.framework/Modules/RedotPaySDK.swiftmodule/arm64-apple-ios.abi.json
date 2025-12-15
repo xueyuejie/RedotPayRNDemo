@@ -2636,6 +2636,13 @@
         "moduleName": "RedotPaySDK"
       },
       {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ImageCacheManager",
         "printedName": "ImageCacheManager",
@@ -2673,6 +2680,58 @@
             "declAttributes": [
               "Nonisolated",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image(forResourceName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RedotPaySDK17ImageCacheManagerV5image15forResourceName6bundle10Foundation4DataVSgSS_So8NSBundleCSgtYaF",
+            "mangledName": "$s11RedotPaySDK17ImageCacheManagerV5image15forResourceName6bundle10Foundation4DataVSgSS_So8NSBundleCSgtYaF",
+            "moduleName": "RedotPaySDK",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -5594,9 +5653,30 @@
       "value": "12"
     },
     {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Image\/ImageCacheManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4646,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Image\/ImageCacheManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4659,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Image\/ImageCacheManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10679,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Image\/RedotpayImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 225,
+      "offset": 297,
       "length": 5,
       "value": "false"
     },

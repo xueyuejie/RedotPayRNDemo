@@ -9,9 +9,11 @@ import Security
 import Swift
 import SwiftUI
 import UIKit
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import _WebKit_SwiftUI
 public struct PaymentFlowModel : Swift.Equatable, Swift.Hashable {
   public static func == (lhs: RedotPaySDK.PaymentFlowModel, rhs: RedotPaySDK.PaymentFlowModel) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
@@ -132,6 +134,9 @@ public struct CryptoPaymentToken : Swift.Codable, Swift.Equatable, Swift.Hashabl
 public struct ImageCacheManager {
   #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) public func image(forUrl key: Swift.String) async -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func image(forResourceName name: Swift.String, bundle: Foundation.Bundle? = nil) async -> Foundation.Data?
   #endif
 }
 @_hasMissingDesignatedInitializers public class RedotPayCollection {

@@ -14,15 +14,15 @@
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		YzXCAXFMHTN20KqNXka9by465sM=
+		0MeFYNajemvOC8vbKdevZ2WawxA=
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		n4ugFDjC5Kq+pDQnhzKTSQtKMf0=
+		aRrej1KbwZddveeZDujmdlvlq10=
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		AAIzkDiLSyoUwHROMLhFdowVqtQ=
+		ZjFyTL/WhW5AtbB22HFGBjo3of8=
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		AAIzkDiLSyoUwHROMLhFdowVqtQ=
+		ZjFyTL/WhW5AtbB22HFGBjo3of8=
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sItwiMAYUqDLX1Sz73+qPvloY6A=
+		6QHU+ETJu3ZRwoisi4mQACYGWjQ=
 		</data>
 		<key>RedotPaySDK.bundle/Assets.car</key>
 		<data>
@@ -120,21 +120,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dgxvb9GdOn5v+I1iC2WDGKQAbzuzY83Y6v0Gv5JKnsk=
+			/zPs5CzevsPw1U97MS0s2vexpyrFEtnYEZxGbEYoopw=
 			</data>
 		</dict>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CwxtzyH8SLLvFUOu996BFfUb7TbkErscPaGRUg+CnRE=
+			w8gQ/BootsY3Zy0s5iAob9u0c4dWaglt1IR6lL8Au40=
 			</data>
 		</dict>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vHqsjb/8BuYQmIxWHuM7F0agsJvFNGwMLYp7K5XGBpM=
+			5pTxZhwkYTo4K6IU1BNmQ+3uU4R3p3S9lMhNJm/eXLQ=
 			</data>
 		</dict>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -148,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vHqsjb/8BuYQmIxWHuM7F0agsJvFNGwMLYp7K5XGBpM=
+			5pTxZhwkYTo4K6IU1BNmQ+3uU4R3p3S9lMhNJm/eXLQ=
 			</data>
 		</dict>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5fLOJS1mb6Fk7Tk1fDcR8lXkdEMAfyLeNKoFan1idNU=
+			tC2UjowGsi9FbHZw03ES9azkZtESDzNLFxA7fj8Sld8=
 			</data>
 		</dict>
 		<key>RedotPaySDK.bundle/Assets.car</key>
