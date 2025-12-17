@@ -13,9 +13,9 @@ import {
   View, 
   NativeModules, 
   Button,
+  Alert,
   Text,
   TextInput,
-  Alert,
   ScrollView,
   Keyboard,
   TouchableWithoutFeedback
@@ -26,6 +26,8 @@ import {
 } from 'react-native-safe-area-context';
 
 const { RedotpayRNBridge } = NativeModules;
+const testPublicKey = '-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuctrVK3eP8hpoJf7FMetlcR77FYcj9HtrkySyGDRt5HHwdwgM8jK0kfE4ag/zI8goe8M0iJ2o7n3VCfTzn8OyfU0bu6KzDti1WOJV9fv4XtSmhm9W4WKjIc8uDQViR7E8trzcrbKFVbKVGng1+z0KobQBDtWhjUeXKktUq1lpiejTS+XjXej26ANPfwbqbY+/6kBB3sWbt9BLDI/WhPYXnFV9oJWod9I/dYUgUUA/b/+bI1wlobNntBDxiNmX0kbqpGZbzO6l9wWFXZiFCD25QtBOZlMbn9noH4KW3DnKGc2nKNz/f2FEM9DJKn3P7NGFVy6O/Q5NzcbFs+DI6nTywIDAQAB-----END PUBLIC KEY-----';
+const publicKey = '-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzMn4r06M/cp2amkbCxIsPSr030JoCFeymwjTZrBnI8kW4mtL6JtUPYpJTFgCB8ZQoV75lEmUw8gSLbN770Cc5EOi1dF4ekmLQ7Ez0SFUbQgJa7Vg5wBdSKcbUmkKGviJt+iZRJ0tZsPpXMPqIo9YOWJagfPbDhEwT2t1ANP4ou98sCqLqELI80iYm8+W4B9IvBW4lc+H5BAPtXpYMtlZ6stCnvHXd1EjvlTak25v5xJ8AInEeAy8/D2glunmz/VfPyoB5OHPgnYVU66HyeQcO1ZY/jzB5d6I/zX4JENG1xrP8ThPZ9qMWtmputJ0XYKymiZgZP6vh0L+G6P/Z98vlQIDAQAB-----END PUBLIC KEY-----';
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -37,17 +39,26 @@ function App() {
   );
 }
 
-function startPay(preOrderId: string, jwtToken: string, publicKey: string) {
+/**
+ * Start payment
+ * @param jwtToken - JWT token from Merchant Login https://{environment}/openapi/v1/merchant/login
+ * @param preOrderId - Preorder ID from Create Prepayment Order https://{environment}/openapi/v1/preOrder/create
+ * @param publicKey - Public key frome 
+ */
+async function startPay(jwtToken: string, preOrderId: string, publicKey: string) {
   try {
     if (!RedotpayRNBridge) {
       Alert.alert('Error', 'RedotPayBridge module not loaded');
       return;
     }
+
+    // Start payment
     RedotpayRNBridge.startPay({
       preOrderId: preOrderId,
       jwtToken: jwtToken,
-      publicKey: publicKey,
-      language: 'en'
+      publicKey: testPublicKey,
+      language: 'en',
+      isTest: false
     })
       .then((result: any) => {
         console.log('Payment started successfully:', result);
@@ -65,8 +76,7 @@ function AppContent() {
   const safeAreaInsets = useSafeAreaInsets();
   const [preOrderId, setPreOrderId] = useState('');
   const [jwtToken, setJwtToken] = useState('');
-  const [publicKey, setPublicKey] = useState('-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuctrVK3eP8hpoJf7FMetlcR77FYcj9HtrkySyGDRt5HHwdwgM8jK0kfE4ag/zI8goe8M0iJ2o7n3VCfTzn8OyfU0bu6KzDti1WOJV9fv4XtSmhm9W4WKjIc8uDQViR7E8trzcrbKFVbKVGng1+z0KobQBDtWhjUeXKktUq1lpiejTS+XjXej26ANPfwbqbY+/6kBB3sWbt9BLDI/WhPYXnFV9oJWod9I/dYUgUUA/b/+bI1wlobNntBDxiNmX0kbqpGZbzO6l9wWFXZiFCD25QtBOZlMbn9noH4KW3DnKGc2nKNz/f2FEM9DJKn3P7NGFVy6O/Q5NzcbFs+DI6nTywIDAQAB-----END PUBLIC KEY-----');
-
+  const [publicKeyString, setPublicKeyString] = useState(publicKey);
   return (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
       <View style={styles.container}>
@@ -80,7 +90,7 @@ function AppContent() {
             style={styles.preSninput}
             value={preOrderId}
             onChangeText={setPreOrderId}
-            placeholder="Enter preOrderId"
+            placeholder="From Create Prepayment Order"
             placeholderTextColor="#999"
           />
           <Text style={styles.label}>jwtToken</Text>
@@ -88,7 +98,7 @@ function AppContent() {
             style={styles.jwtTokeninput}
             value={jwtToken}
             onChangeText={setJwtToken}
-            placeholder="Enter jwtToken"
+            placeholder="From Merchant Login"
             placeholderTextColor="#999"
             multiline
           />
@@ -96,13 +106,13 @@ function AppContent() {
           <TextInput
             style={styles.publicKeyinput}
             value={publicKey}
-            onChangeText={setPublicKey}
+            onChangeText={setPublicKeyString}
             placeholder="Enter publicKey"
             placeholderTextColor="#999"
             multiline
           />
           <View style={styles.payButtonContainer}>
-            <Button title="PayNow" onPress={() => startPay(preOrderId, jwtToken, publicKey)} />
+            <Button title="PayNow" onPress={() => startPay(preOrderId, jwtToken, publicKeyString)} />
           </View>
         </ScrollView>
       </View>
@@ -159,8 +169,7 @@ const styles = StyleSheet.create({
   },
   payButtonContainer: {
     padding: 16,
-    justifyContent: 'center',
-    alignItems: 'center',
+    flex: 1,
     minHeight: 150,
   },
 });

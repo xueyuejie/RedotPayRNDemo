@@ -5,6 +5,8 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "ios:release": "react-native run-ios --configuration Release",
+    "build:ios": "cd ios && xcodebuild -workspace RNTest.xcworkspace -scheme RNTest -configuration Release -sdk iphoneos -archivePath build/RNTest.xcarchive archive && xcodebuild -exportArchive -archivePath build/RNTest.xcarchive -exportPath build -exportOptionsPlist ExportOptions.plist",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest"

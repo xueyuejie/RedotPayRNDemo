@@ -1,6 +1,5 @@
 import Foundation
 import SwiftUI
-import UIKit
 
 /// RedotPayCollection主接口类
 public class RedotPayCollection {
@@ -8,7 +7,7 @@ public class RedotPayCollection {
         Task {
             FontLoader.registerFonts()
         }
-        IsTestConfig.share.isTest = true
+        IsTestConfig.share.isTest = sdkConfig.isTest
         LanguageManager.shared.setLanguage(language: sdkConfig.language)
         return createPaymentViewController(presn: sdkConfig.preOrderId, publicKey: sdkConfig.publicKey, jwtToken: sdkConfig.jwtToken)
     }
@@ -33,11 +32,5 @@ public class RedotPayCollection {
             }
         }
         return true
-    }
-    
-    /// 关闭支付界面
-    private func closePayment() {
-        // TODO: 实现关闭支付界面的逻辑
-        print("关闭支付界面")
     }
 }

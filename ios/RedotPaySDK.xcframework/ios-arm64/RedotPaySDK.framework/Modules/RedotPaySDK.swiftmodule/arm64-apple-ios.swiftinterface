@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Combine
 import CryptoKit
+import DeveloperToolsSupport
 import Foundation
 import Security
 import Swift
@@ -14,11 +15,6 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import _WebKit_SwiftUI
-@_hasMissingDesignatedInitializers public class IsTestConfig {
-  public static let share: RedotPaySDK.IsTestConfig
-  public var isTest: Swift.Bool
-  @objc deinit
-}
 extension Swift.Array {
   @inlinable internal init(reserveCapacity: Swift.Int) {
     self = Array<Element>()
@@ -42,5 +38,5 @@ extension Swift.Array {
   @objc deinit
 }
 public struct SDKConfiguartion {
-  public init(preOrderId: Swift.String, jwtToken: Swift.String, publicKey: Swift.String, language: Swift.String)
+  public init(preOrderId: Swift.String, jwtToken: Swift.String, publicKey: Swift.String, language: Swift.String, isTest: Swift.Bool)
 }

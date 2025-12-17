@@ -184,174 +184,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "IsTestConfig",
-        "printedName": "IsTestConfig",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "share",
-            "printedName": "share",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "IsTestConfig",
-                "printedName": "RedotPaySDK.IsTestConfig",
-                "usr": "s:11RedotPaySDK12IsTestConfigC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11RedotPaySDK12IsTestConfigC5shareACvpZ",
-            "mangledName": "$s11RedotPaySDK12IsTestConfigC5shareACvpZ",
-            "moduleName": "RedotPaySDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IsTestConfig",
-                    "printedName": "RedotPaySDK.IsTestConfig",
-                    "usr": "s:11RedotPaySDK12IsTestConfigC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11RedotPaySDK12IsTestConfigC5shareACvgZ",
-                "mangledName": "$s11RedotPaySDK12IsTestConfigC5shareACvgZ",
-                "moduleName": "RedotPaySDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isTest",
-            "printedName": "isTest",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11RedotPaySDK12IsTestConfigC02isE0Sbvp",
-            "mangledName": "$s11RedotPaySDK12IsTestConfigC02isE0Sbvp",
-            "moduleName": "RedotPaySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11RedotPaySDK12IsTestConfigC02isE0Sbvg",
-                "mangledName": "$s11RedotPaySDK12IsTestConfigC02isE0Sbvg",
-                "moduleName": "RedotPaySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11RedotPaySDK12IsTestConfigC02isE0Sbvs",
-                "mangledName": "$s11RedotPaySDK12IsTestConfigC02isE0Sbvs",
-                "moduleName": "RedotPaySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11RedotPaySDK12IsTestConfigC02isE0SbvM",
-                "mangledName": "$s11RedotPaySDK12IsTestConfigC02isE0SbvM",
-                "moduleName": "RedotPaySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:11RedotPaySDK12IsTestConfigC",
-        "mangledName": "$s11RedotPaySDK12IsTestConfigC",
-        "moduleName": "RedotPaySDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -467,13 +299,6 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "RedotPaySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "RedotPaySDK"
       },
@@ -733,13 +558,6 @@
         "moduleName": "RedotPaySDK"
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "RedotPaySDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "RedotPayCollection",
         "printedName": "RedotPayCollection",
@@ -818,7 +636,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(preOrderId:jwtToken:publicKey:language:)",
+            "printedName": "init(preOrderId:jwtToken:publicKey:language:isTest:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -849,11 +667,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11RedotPaySDK16SDKConfiguartionV10preOrderId8jwtToken9publicKey8languageACSS_S3Stcfc",
-            "mangledName": "$s11RedotPaySDK16SDKConfiguartionV10preOrderId8jwtToken9publicKey8languageACSS_S3Stcfc",
+            "usr": "s:11RedotPaySDK16SDKConfiguartionV10preOrderId8jwtToken9publicKey8language6isTestACSS_S3SSbtcfc",
+            "mangledName": "$s11RedotPaySDK16SDKConfiguartionV10preOrderId8jwtToken9publicKey8language6isTestACSS_S3SSbtcfc",
             "moduleName": "RedotPaySDK",
             "declAttributes": [
               "AccessControl"
@@ -884,6 +708,34 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "RedotPaySDK"
       },
       {
         "kind": "TypeDecl",
@@ -1833,7 +1685,7 @@
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/Config\/IsTestConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 206,
+      "offset": 199,
       "length": 4,
       "value": "true"
     },
@@ -1857,13 +1709,6 @@
       "offset": 427,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/Service\/RedotpayNetwork\/RedotPayNetworkConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 71,
-      "length": 31,
-      "value": "\"https:\/\/rpc.walletconnect.org\""
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/Service\/RedotpayNetwork\/RedotPayNetworkService.swift",
@@ -1938,203 +1783,203 @@
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "BooleanLiteral",
-      "offset": 195,
+      "offset": 182,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "StringLiteral",
-      "offset": 274,
+      "offset": 261,
       "length": 21,
       "value": "\"Waiting For Payment\""
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 608,
+      "offset": 595,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 645,
+      "offset": 632,
       "length": 4,
       "value": "0x17"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 650,
+      "offset": 637,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 662,
+      "offset": 649,
       "length": 4,
       "value": "0x1A"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 667,
+      "offset": 654,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 678,
+      "offset": 665,
       "length": 4,
       "value": "0x1B"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 683,
+      "offset": 670,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 730,
+      "offset": 717,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "StringLiteral",
-      "offset": 940,
+      "offset": 927,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1032,
+      "offset": 1019,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1044,
+      "offset": 1031,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "FloatLiteral",
-      "offset": 1108,
+      "offset": 1095,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1171,
+      "offset": 1158,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "FloatLiteral",
-      "offset": 1214,
+      "offset": 1201,
       "length": 4,
       "value": "11.5"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1428,
+      "offset": 1415,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1440,
+      "offset": 1427,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1507,
+      "offset": 1494,
       "length": 3,
       "value": "360"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1513,
+      "offset": 1500,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "FloatLiteral",
-      "offset": 1608,
+      "offset": 1595,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1674,
+      "offset": 1661,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "StringLiteral",
-      "offset": 1827,
+      "offset": 1814,
       "length": 15,
       "value": "\"Inter-Regular\""
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1850,
+      "offset": 1837,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1943,
+      "offset": 1930,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2049,
+      "offset": 2036,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2099,
+      "offset": 2086,
       "length": 3,
       "value": "165"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2112,
+      "offset": 2099,
       "length": 2,
       "value": "81"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/UIComponents\/Toast\/PaymentWaitingToastView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2162,
+      "offset": 2149,
       "length": 4,
       "value": "true"
     },
@@ -2270,6 +2115,314 @@
       "offset": 734,
       "length": 9,
       "value": "\"zh-Hans\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 20,
+      "value": "\"background_default\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 19,
+      "value": "\"brand_primary_100\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 964,
+      "length": 18,
+      "value": "\"brand_primary_20\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1122,
+      "length": 18,
+      "value": "\"brand_primary_40\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1280,
+      "length": 18,
+      "value": "\"brand_primary_60\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1438,
+      "length": 18,
+      "value": "\"brand_primary_80\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1595,
+      "length": 17,
+      "value": "\"brand_secondary\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1758,
+      "length": 21,
+      "value": "\"brand_secondary_100\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1913,
+      "length": 15,
+      "value": "\"error_red_new\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2053,
+      "length": 10,
+      "value": "\"gray_100\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2202,
+      "length": 17,
+      "value": "\"neutral_support\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2352,
+      "length": 14,
+      "value": "\"text_inverse\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2597,
+      "length": 10,
+      "value": "\"arbitrum\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2735,
+      "length": 11,
+      "value": "\"avalanche\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2864,
+      "length": 6,
+      "value": "\"base\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2994,
+      "length": 9,
+      "value": "\"binance\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3138,
+      "length": 15,
+      "value": "\"bitget_wallet\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3269,
+      "length": 5,
+      "value": "\"bnb\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3402,
+      "length": 11,
+      "value": "\"checkmark\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3546,
+      "length": 14,
+      "value": "\"chevron_down\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3710,
+      "length": 23,
+      "value": "\"choose_token_selected\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3887,
+      "length": 25,
+      "value": "\"choose_token_unselected\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4038,
+      "length": 10,
+      "value": "\"coinbase\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4174,
+      "length": 10,
+      "value": "\"ethereum\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4308,
+      "length": 9,
+      "value": "\"imtoken\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4462,
+      "length": 20,
+      "value": "\"legacypayment_copy\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4612,
+      "length": 15,
+      "value": "\"loading_image\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4753,
+      "length": 10,
+      "value": "\"metamask\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4892,
+      "length": 12,
+      "value": "\"okx_wallet\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5045,
+      "length": 18,
+      "value": "\"paymentfail_icon\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5221,
+      "length": 27,
+      "value": "\"paymentflow_step_confirma\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5398,
+      "length": 23,
+      "value": "\"paymentflow_step_icon\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5571,
+      "length": 23,
+      "value": "\"paymentflow_step_line\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5752,
+      "length": 27,
+      "value": "\"paymentflow_step_selected\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5941,
+      "length": 29,
+      "value": "\"paymentflow_step_unselected\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6117,
+      "length": 21,
+      "value": "\"paymentsuccess_icon\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6262,
+      "length": 9,
+      "value": "\"phantom\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6395,
+      "length": 9,
+      "value": "\"polygon\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6530,
+      "length": 10,
+      "value": "\"redotpay\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6695,
+      "length": 25,
+      "value": "\"redotpaypayment_worning\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6852,
+      "length": 13,
+      "value": "\"tokenpocket\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6998,
+      "length": 14,
+      "value": "\"trust_wallet\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7130,
+      "length": 6,
+      "value": "\"usdc\""
+    },
+    {
+      "filePath": "\/Users\/neal\/Library\/Developer\/Xcode\/DerivedData\/Build\/Intermediates.noindex\/RedotPaySDK.build\/Release-iphonesimulator\/RedotPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7254,
+      "length": 6,
+      "value": "\"usdt\""
     }
   ]
 }

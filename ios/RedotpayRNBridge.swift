@@ -37,6 +37,7 @@ class RedotpayRNBridge: NSObject, RCTBridgeModule {
     ///   - jwtToken: String - JWT token
     ///   - publicKey: String - Public key
     ///   - language: String - Language code
+    ///   - isTest: Bool - Flag indicating whether the environment is test or production.
     ///
     /// Return:
     /// - Promise: resolves with {"success": true} on success, rejects with error on failure
@@ -48,8 +49,9 @@ class RedotpayRNBridge: NSObject, RCTBridgeModule {
             guard let preOrderId = config["preOrderId"] as? String,
                   let jwtToken = config["jwtToken"] as? String,
                   let publicKey = config["publicKey"] as? String,
-                  let language = config["language"] as? String else {
-                rejecter("INVALID_PARAMS", "Missing required parameters: preOrderId, jwtToken, publicKey, language", nil)
+                  let language = config["language"] as? String,
+                  let isTest = config["isTest"] as? Bool else {
+                rejecter("INVALID_PARAMS", "Missing required parameters: preOrderId, jwtToken, publicKey, language, isTest", nil)
                 return
             }
             
@@ -58,7 +60,8 @@ class RedotpayRNBridge: NSObject, RCTBridgeModule {
                 preOrderId: preOrderId,
                 jwtToken: jwtToken,
                 publicKey: publicKey,
-                language: language
+                language: language,
+                isTest: isTest
             )
             
             // Call the original method
