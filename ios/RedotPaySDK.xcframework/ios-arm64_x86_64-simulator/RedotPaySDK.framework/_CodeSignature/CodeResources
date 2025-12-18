@@ -30,15 +30,15 @@
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		LTEokd63oorBxsyHFL39+f58vMA=
+		dQ++598pRcQxaPZNnXXjDB5k060=
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		YNFWnD7Mxn4o+lb7whLY9QVOqdI=
+		hBmRNlyXbQDz47EDDqSnY+/+7jA=
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Uf6hlseeXX0WBD/oORmlBJZJXYY=
+		5sI6rgNmRWr1sKnGk5e7fH4zcBo=
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		44FXdrHYg9qJmWfyv5BSPOgaMZw=
+		XYG+yZY1VJMp7BHOPMd58X86xdQ=
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Uf6hlseeXX0WBD/oORmlBJZJXYY=
+		5sI6rgNmRWr1sKnGk5e7fH4zcBo=
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Tm7z+oIWPtgJmVC9Zy2L5OV54Y0=
+		vc+6UGWbzvOZ8eWBifY9PdEPO+c=
 		</data>
 		<key>RedotPaySDK.bundle/Assets.car</key>
 		<data>
@@ -198,21 +198,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hN0DUVXDHG6pni9agW8wG2cub5mBFEqioUeQJCSJGPQ=
+			rwum/CbsVezZzAZcNwXBSXOjgWfzGm9C+gTBiQQ+WnU=
 			</data>
 		</dict>
 		<key>Modules/RedotPaySDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kELOXAQvidVx8/G++Q79G2VPG7xg/DXt4d7F92lcVNA=
+			VGlFe/L/pOyaddm2t8LEfoSbhINzEfl1GAXzaZLQTLg=
 			</data>
 		</dict>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tO7rRt0V6GGftljjL6jA8aqngzRjSeD52dFfWKtoT5w=
+			DOL1/qCZrx1SMubk6Rn6gZqfnq6fKpWjkvHLcUHVhJI=
 			</data>
 		</dict>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -240,14 +240,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KMRGsCO6i+U1Kkv2kGiIOXVkAr0Vi4KJDlCV+J/7hW4=
+			AVfdVK3XmDL8RZTI/AYvZtFTIswFvjBWmnBUA8KN2uc=
 			</data>
 		</dict>
 		<key>Modules/RedotPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tO7rRt0V6GGftljjL6jA8aqngzRjSeD52dFfWKtoT5w=
+			DOL1/qCZrx1SMubk6Rn6gZqfnq6fKpWjkvHLcUHVhJI=
 			</data>
 		</dict>
 		<key>Modules/RedotPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -275,7 +275,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CE0d3OTHkGq4N3TgdFfDLYu9h7brNBGxBS6IXRAWEIQ=
+			qoERBH0ZBviGh3t9f6oa5E+yc4wDq+QUXwIUX0Ri85Q=
 			</data>
 		</dict>
 		<key>RedotPaySDK.bundle/Assets.car</key>

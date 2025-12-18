@@ -1629,49 +1629,49 @@
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 358,
+      "offset": 317,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 386,
+      "offset": 345,
       "length": 9,
       "value": "\"loading\""
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 437,
+      "offset": 396,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 473,
+      "offset": 432,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 520,
+      "offset": 479,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 566,
+      "offset": 525,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Business\/UI\/WalletSelection\/ViewModels\/SelectWalletViewModel.swift",
       "kind": "Array",
-      "offset": 619,
+      "offset": 578,
       "length": 2,
       "value": "[]"
     },
@@ -1713,7 +1713,7 @@
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/Service\/RedotpayNetwork\/RedotPayNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 8127,
+      "offset": 8547,
       "length": 5,
       "value": "\"APP\""
     },
