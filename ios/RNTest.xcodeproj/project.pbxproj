@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08263B122EF39CE1003D23C5 /* RedotPaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08263B102EF39CDC003D23C5 /* RedotPaySDK.xcframework */; };
+		08263B132EF39CE1003D23C5 /* RedotPaySDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08263B102EF39CDC003D23C5 /* RedotPaySDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		08BFA4002EEAA52F006F0623 /* RedotpayRNBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BFA3FD2EEAA52F006F0623 /* RedotpayRNBridge.m */; };
 		08BFA4012EEAA52F006F0623 /* RedotpayRNBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BFA3FE2EEAA52F006F0623 /* RedotpayRNBridge.swift */; };
-		08BFADCE2EEC0ADE006F0623 /* RedotPaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BFADB32EEC0992006F0623 /* RedotPaySDK.xcframework */; };
-		08BFADCF2EEC0ADE006F0623 /* RedotPaySDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08BFADB32EEC0992006F0623 /* RedotPaySDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0C80B921A6F3F58F76C31292 /* libPods-RNTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNTest.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
@@ -19,13 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		08BFA83A2EEAAD3C006F0623 /* Embed Frameworks */ = {
+		08263B142EF39CE1003D23C5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				08BFADCF2EEC0ADE006F0623 /* RedotPaySDK.xcframework in Embed Frameworks */,
+				08263B132EF39CE1003D23C5 /* RedotPaySDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,10 +33,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		08263B102EF39CDC003D23C5 /* RedotPaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RedotPaySDK.xcframework; sourceTree = "<group>"; };
 		08BFA3FD2EEAA52F006F0623 /* RedotpayRNBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedotpayRNBridge.m; sourceTree = "<group>"; };
 		08BFA3FE2EEAA52F006F0623 /* RedotpayRNBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedotpayRNBridge.swift; sourceTree = "<group>"; };
 		08BFA3FF2EEAA52F006F0623 /* RNTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		08BFADB32EEC0992006F0623 /* RedotPaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RedotPaySDK.xcframework; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNTest/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNTest/Info.plist; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08BFADCE2EEC0ADE006F0623 /* RedotPaySDK.xcframework in Frameworks */,
+				08263B122EF39CE1003D23C5 /* RedotPaySDK.xcframework in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-RNTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,7 +80,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08BFADB32EEC0992006F0623 /* RedotPaySDK.xcframework */,
+				08263B102EF39CDC003D23C5 /* RedotPaySDK.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-RNTest.a */,
 			);
@@ -139,7 +139,7 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
-				08BFA83A2EEAAD3C006F0623 /* Embed Frameworks */,
+				08263B142EF39CE1003D23C5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +172,8 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
+			packageReferences = (
+			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

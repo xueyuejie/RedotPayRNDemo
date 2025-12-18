@@ -45,7 +45,7 @@ function App() {
  * @param preOrderId - Preorder ID from Create Prepayment Order https://{environment}/openapi/v1/preOrder/create
  * @param publicKey - Public key frome 
  */
-async function startPay(jwtToken: string, preOrderId: string, publicKey: string) {
+async function startPay(preOrderId: string, jwtToken: string, publicKey: string) {
   try {
     if (!RedotpayRNBridge) {
       Alert.alert('Error', 'RedotPayBridge module not loaded');
@@ -56,7 +56,7 @@ async function startPay(jwtToken: string, preOrderId: string, publicKey: string)
     RedotpayRNBridge.startPay({
       preOrderId: preOrderId,
       jwtToken: jwtToken,
-      publicKey: testPublicKey,
+      publicKey: publicKey,
       language: 'en',
       isTest: false
     })
@@ -73,7 +73,6 @@ async function startPay(jwtToken: string, preOrderId: string, publicKey: string)
 }
 
 function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
   const [preOrderId, setPreOrderId] = useState('');
   const [jwtToken, setJwtToken] = useState('');
   const [publicKeyString, setPublicKeyString] = useState(publicKey);

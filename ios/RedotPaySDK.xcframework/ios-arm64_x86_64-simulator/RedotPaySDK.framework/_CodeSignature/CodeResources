@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		EpABqYCpl5sXr42HPn7aSPgRE80=
+		LTEokd63oorBxsyHFL39+f58vMA=
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		SDQv98YEd31tA2GztMd5StN7bgY=
+		YNFWnD7Mxn4o+lb7whLY9QVOqdI=
 		</data>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>RedotPaySDK.bundle/Assets.car</key>
 		<data>
-		Zu80/UnUJrxJu+E6Zuqj1i7X9sE=
+		RjrQKA8q+/AlvyFkL21dwLTe9FA=
 		</data>
 		<key>RedotPaySDK.bundle/Info.plist</key>
 		<data>
-		vXNV/yzUUzKnJItl5ik7TRLYw8U=
+		wbwok7VoOKxqd9LrzP4dB3KmFnI=
 		</data>
 		<key>RedotPaySDK.bundle/Inter-Bold.ttf</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>RedotPaySDK.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		0slmYQpwTkkOYhxYBey+bK08HwE=
+		dN09BiklvDnYZ+LBH55vqb8K9/M=
 		</data>
 		<key>RedotPaySDK.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>RedotPaySDK.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		ns7ADkLN2IbHX0utq67sq6RKXL0=
+		WE7UxKjD0m3g9FL9V6izspljROs=
 		</data>
 		<key>RedotPaySDK.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hs2X8FYvpGnm5YjWhbgaDKbq7gA=
+			UmOEsA0eyUQDogLGRuKDUISeZ+M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -124,18 +124,6 @@
 		<key>RedotPaySDK.bundle/network_config.json</key>
 		<data>
 		0/nExsYpZtYbmQPB3qxXesTD4io=
-		</data>
-		<key>RedotPaySDK.bundle/redotpay_fail.json</key>
-		<data>
-		o0W+lOhObfxCvf0y4CeF5zJa0hI=
-		</data>
-		<key>RedotPaySDK.bundle/redotpay_success.json</key>
-		<data>
-		vKv6VU3Ysk2mjsv18uWyf+/5WMM=
-		</data>
-		<key>RedotPaySDK.bundle/redotpay_wait.json</key>
-		<data>
-		0gGf0d5hD9qUrgwU0aRqjC1Mfyk=
 		</data>
 		<key>RedotPaySDK.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
@@ -150,7 +138,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hs2X8FYvpGnm5YjWhbgaDKbq7gA=
+			UmOEsA0eyUQDogLGRuKDUISeZ+M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -210,14 +198,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R2xqgsdDkzccsXF1877bOZgMsxhHoUZVJpz2v88w6W0=
+			hN0DUVXDHG6pni9agW8wG2cub5mBFEqioUeQJCSJGPQ=
 			</data>
 		</dict>
 		<key>Modules/RedotPaySDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zdzShPS7m5SaqRTzqsRGZQr571zKEo9nVQ8S2uPowM0=
+			kELOXAQvidVx8/G++Q79G2VPG7xg/DXt4d7F92lcVNA=
 			</data>
 		</dict>
 		<key>Modules/RedotPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -294,14 +282,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JUHEv1+KMsblZ4KWZoT5xYIiDXGD/WupZIHpzoyFDRM=
+			UGLYknVM9s0G+PxQPL5Cap4Eid+uEPSVAfqmtZzcT24=
 			</data>
 		</dict>
 		<key>RedotPaySDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D0DoUO4+xRVMyr17Z4DGZlS9EuF0L2YapcntHalv+5c=
+			0yq51Os3LSIO8aWFDE0HuQACXxuFtfjfy98qWqbpjRA=
 			</data>
 		</dict>
 		<key>RedotPaySDK.bundle/Inter-Bold.ttf</key>
@@ -329,7 +317,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+atxbXfyP1hy4MPyW9xwVOUUpDl/N6tPmLU5PbRrT+o=
+			wueoJPgNcF514KV/vjldTND8Bd1HNG0ySIPtPeO/hdQ=
 			</data>
 		</dict>
 		<key>RedotPaySDK.bundle/_CodeSignature/CodeRequirements</key>
@@ -343,7 +331,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d41ckZVabvdi4LVVeE2nbxDPKC42SO3UE3vM5ZKIh7g=
+			ypM5MkRNACrKNCu3teUrDT5TI2ysl6zUGiaEkva3QG4=
 			</data>
 		</dict>
 		<key>RedotPaySDK.bundle/_CodeSignature/CodeSignature</key>
@@ -357,7 +345,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B4iaHeM9aNByQfGt5WnVA4YfxewwVrsgo1OTd/rG7co=
+			j6pEkSSeYgSyZ2ihvcvQ2YWXf6wwvO1UdYRuer1leVk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -367,27 +355,6 @@
 			<key>hash2</key>
 			<data>
 			GEl6g7Nc1lQ3yItQ+bBsIMXolue+XCS3sxEkTsKlIGg=
-			</data>
-		</dict>
-		<key>RedotPaySDK.bundle/redotpay_fail.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			X/RdyxxYTf2TfsIDNOwZ7fUc9/oalUxUD3CT2ZHCDf8=
-			</data>
-		</dict>
-		<key>RedotPaySDK.bundle/redotpay_success.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HPwsYveEB1nMiOMrFjOFvxcAvqmW21g6qApV6s2kJzQ=
-			</data>
-		</dict>
-		<key>RedotPaySDK.bundle/redotpay_wait.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y5rI/rHiPQCTcd5/ohSzYNxSPDUQ9CeitZ1L60KSJkY=
 			</data>
 		</dict>
 		<key>RedotPaySDK.bundle/zh-Hans.lproj/Localizable.strings</key>
@@ -403,7 +370,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B4iaHeM9aNByQfGt5WnVA4YfxewwVrsgo1OTd/rG7co=
+			j6pEkSSeYgSyZ2ihvcvQ2YWXf6wwvO1UdYRuer1leVk=
 			</data>
 			<key>optional</key>
 			<true/>
