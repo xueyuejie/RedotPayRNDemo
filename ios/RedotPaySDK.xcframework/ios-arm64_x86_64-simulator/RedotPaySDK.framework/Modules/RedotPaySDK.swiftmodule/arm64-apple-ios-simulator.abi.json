@@ -1713,7 +1713,7 @@
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Common\/Service\/RedotpayNetwork\/RedotPayNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 8547,
+      "offset": 8526,
       "length": 5,
       "value": "\"APP\""
     },
@@ -2056,14 +2056,7 @@
     {
       "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Core\/Models\/RedotPayWallet.swift",
       "kind": "BooleanLiteral",
-      "offset": 331,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/neal\/Desktop\/farmework\/RedotpaySDKFramework\/RedotPaySDK\/RedotPaySDK\/Foundation\/Core\/Models\/RedotPayWallet.swift",
-      "kind": "BooleanLiteral",
-      "offset": 485,
+      "offset": 452,
       "length": 5,
       "value": "false"
     },
